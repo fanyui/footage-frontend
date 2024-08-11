@@ -280,7 +280,7 @@ export const HomePageBody = () => {
             <p className="mt-6 text-lg leading-8 text-gray-300">
               Harness the power of AI to protect what matters most. Our cutting-edge technology identifies potential threats
               in real-time, ensuring your safety with unparalleled accuracy and speed. From retail security to home surveillance,
-              we've got you covered.
+              we&apos;ve got you covered.
             </p>
           </div>
         </div>
@@ -308,7 +308,7 @@ export const HomePageBody = () => {
                   Our AI operates ethically, respecting privacy while enhancing safety.
                 </p>
                 <p className="mt-8">
-                  Whether you're a business owner safeguarding your assets or a homeowner protecting your loved ones, our AI
+                  Whether you&apos;re a business owner safeguarding your assets or a homeowner protecting your loved ones, our AI
                   surveillance solution provides peace of mind. Experience the future of security with technology that is always
                   learning, evolving, and improving to meet your needs.
                 </p>

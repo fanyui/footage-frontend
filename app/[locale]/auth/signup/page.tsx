@@ -5,7 +5,7 @@ export default function SignIn(
 ) {
   return (
     <>
-     <SignUpBody referralCode={searchParams?.referralCode}/>
+      <SignUpBody />
     </>
   )
 }

@@ -26,13 +26,15 @@ export default function Page({ params }: { params: { slug: string } }) {
         console.log("s", seconds, "m", minutes, "h", hours)
         return hours * 3600 + minutes * 60 + seconds;
     }
-    const handleEventClick = (event) => {
+    const handleEventClick = (event: any) => {
         console.log("selected", event);
         setSelectedEvent(event);
         let video = document.getElementById('footage-player')
         const time = convertTimeToSeconds(event.eventStartTime)
         console.log("time", time)
-        video.currentTime = time
+        if (video) {
+            video.currentTime = time
+        }
         // Add logic to jump to the video segment if needed
     };
 
